@@ -2,7 +2,7 @@
 DIR=prox_qualitative
 IDX=1
 echo ${DIR}
-#cd /is/cluster/hyi/workspace/HCI/tool_scripts/detection/
+cd ./detection/
 conda activate mover
 python test_det_pointrend.py \
 	--img-root=${DIR} \
@@ -13,3 +13,5 @@ python test_det_pointrend.py \
 	--save \
 	--show \
 	--idx=IDX
+
+cd ..
