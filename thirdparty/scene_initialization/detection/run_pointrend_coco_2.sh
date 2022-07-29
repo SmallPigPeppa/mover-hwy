@@ -2,7 +2,7 @@ DIR=prox_qualitative
 IDX=1
 echo ${DIR}
 cd ./detection/
-conda activate robust_cvd
+conda activate point-render
 python test_det_pointrend.py \
 	--img-root=${DIR} \
   --out-img-root=${DIR}_pointrend_X_101_det_all \
