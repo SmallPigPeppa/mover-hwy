@@ -9,7 +9,7 @@ import pickle
 
 import torch, torchvision
 print(torch.__version__, torch.cuda.is_available())
-assert torch.__version__.startswith("1.7")
+# assert torch.__version__.startswith("1.7")
 
 import detectron2
 from detectron2.utils.logger import setup_logger
