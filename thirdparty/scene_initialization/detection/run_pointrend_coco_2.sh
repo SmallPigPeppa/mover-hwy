@@ -11,6 +11,6 @@ python test_det_pointrend.py \
 	--bbox-thr 0.55 \
 	--save \
 	--show \
-	--idx=IDX
+	--idx=${IDX}
 
 cd ..
