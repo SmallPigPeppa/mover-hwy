@@ -1,4 +1,3 @@
-#!/bin/bash
 DIR=prox_qualitative
 IDX=1
 echo ${DIR}
