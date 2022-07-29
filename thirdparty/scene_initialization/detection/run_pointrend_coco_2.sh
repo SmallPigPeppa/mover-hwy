@@ -1,4 +1,4 @@
-DIR=./prox_qualitative
+DIR=/share/wenzhuoliu/code/mover-hwy/thirdparty/scene_initialization/prox_qualitative
 IDX=1
 echo ${DIR}
 cd ./detection/
