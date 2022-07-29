@@ -33,7 +33,7 @@ from PIL import Image
 # import PointRend project
 from detectron2.projects import point_rend
 
-detectron2_path = './detectron2'
+detectron2_path = './'
 cfg = get_cfg()
 # Add PointRend-specific config
 point_rend.add_pointrend_config(cfg)
