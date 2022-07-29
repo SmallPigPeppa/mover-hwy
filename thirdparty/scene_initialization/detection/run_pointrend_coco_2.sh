@@ -1,4 +1,4 @@
-DIR=prox_qualitative
+DIR=./prox_qualitative
 IDX=1
 echo ${DIR}
 cd ./detection/
