@@ -1,5 +1,5 @@
 DIR=/share/wenzhuoliu/code/mover-hwy/thirdparty/scene_initialization/prox_qualitative
-IDX=1
+IDX=2
 echo ${DIR}
 cd ./detection/
 conda activate point-render
