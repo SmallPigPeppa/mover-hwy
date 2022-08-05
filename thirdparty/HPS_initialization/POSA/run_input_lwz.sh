@@ -10,7 +10,7 @@ save_dir=${smplfx_out}/posa_contact_npy_newBottom
 
 python src/gen_rand_samples.py \
     --config cfg_files/contact.yaml \
-    --checkpoint_path ${POSA_dir}/trained_models/contact.pt \
+    --checkpoint_path /share/wenzhuoliu/code/mover-hwy/thirdparty/HPS_initialization/POSA_dir/trained_models/contact.pt \
     --pkl_file_path ${pkl_file_path} \
     --render 1 \
     --num_rand_samples 1 \
