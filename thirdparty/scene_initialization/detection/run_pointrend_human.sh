@@ -1,6 +1,6 @@
 DIR=/share/wenzhuoliu/code/mover-hwy/thirdparty/scene_initialization/prox_qualitative
-DIR=/share/wenzhuoliu/code/mover-lwz/input
-IDX=2
+DIR=/share/wenzhuoliu/code/mover-lwz/input-data/Color_flip/images
+IDX=0
 echo ${DIR}
 cd ./detection/
 conda activate point-render
